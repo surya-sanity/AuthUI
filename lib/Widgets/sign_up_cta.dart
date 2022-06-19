@@ -16,7 +16,7 @@ class _SignUpCTAState extends State<SignUpCTA> {
     SnackBar snackBar = SnackBar(
       content: Row(children: const [
         Icon(Icons.check),
-        SizedBox(width: 12),
+        SizedBox(width: 10),
         Text(
           'Sign Up Success.',
           style: TextStyle(color: Colors.white, fontSize: 13),

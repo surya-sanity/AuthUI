@@ -11,7 +11,6 @@ class OrDivider extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: const [
         Spacer(),
-        Spacer(),
         Expanded(
           child: Divider(
             height: 1,

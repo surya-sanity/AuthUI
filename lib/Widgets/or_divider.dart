@@ -11,6 +11,7 @@ class OrDivider extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: const [
         Spacer(),
+        Spacer(),
         Expanded(
           child: Divider(
             height: 1,
@@ -18,7 +19,7 @@ class OrDivider extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: EdgeInsets.symmetric(horizontal: 10.0),
+          padding: EdgeInsets.sy`mmetric(horizontal: 10.0),
           child: Text('or', style: TextStyle(fontSize: 13)),
         ),
         Expanded(
